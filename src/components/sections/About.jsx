@@ -1,7 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
-    const frontEndSkills = ["HTML5", "CSS3", "Tailwind", "JavaScript", "ReactJS", "Bootstrap"];
-    const backendSkills = ["Node.js", "MySQL", "MongoDB", "JavaScript", "Laravel",]
+  const languageSkills = ["HTML5", "CSS3", "Tailwind", "JavaScript", "React", "Bootstrap", "Express", "SQL", "PHP", "TypeScript"];
+  const technologySkills = ["Vim", "MySQL", "Node.js", "MongoDB", "Laravel", "Emmet", "Git", "Github", "Bash", "VSCode", "React Native", "React JS"];
     return (
       <section
         id="about"
@@ -20,9 +20,9 @@ export const About = () => {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                  <h3 className="text-xl font-bold mb-4">Front-End</h3>
+                  <h3 className="text-xl font-bold mb-4">Languages</h3>
                   <div className="flex flex-wrap gap-2">
-                    {frontEndSkills.map((tech, key) => (
+                    {languageSkills.map((tech, key) => (
                       <span
                         key={key}
                         className="bg-orange-500/10 text-orange-500 py-1 px-3 rounded-full
@@ -39,9 +39,9 @@ export const About = () => {
                 </div>
 
                 <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                  <h3 className="text-xl font-bold mb-4">Back-End</h3>
+                  <h3 className="text-xl font-bold mb-4">Technologies</h3>
                   <div className="flex flex-wrap gap-2">
-                    {backendSkills.map((tech, key) => (
+                    {technologySkills.map((tech, key) => (
                       <span
                         key={key}
                         className="bg-emerald-500/10 text-emerald-500 py-1 px-3 rounded-full
