@@ -11,7 +11,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                 <div className="flex justify-between items-center h-16">
                     <a href="#home" className="font-mono text-xl font-bold text-white">
                         {" "}
-                        <span className="text-orange-600">Levi_G_Duarte</span>
+                        <a className="text-orange-600" href="https://github.com/Levi-G-Duarte" target="/blank">Levi_G_Duarte</a>
                         {" "}
                     </a>
                     <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
